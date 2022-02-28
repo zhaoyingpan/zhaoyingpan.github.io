@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU}{experiences.html}, nofooter
+== Research Experiences
+
+== University of Michigan
+- Working on photoshopped image classification recently.
+\n
+
+== Aerospace Information Research Institute, Chinese Academy of Sciences
+- Advisor: [https://scholar.google.com/citations?user=xWKPHDYAAAAJ&hl=en&oi=ao Xian Sun] and Kun Fu.
+- Learned and adapted CycleGAN to remove fog in images.
+- Reviewed object detection algorithms, including Faster-RCNN, YOLO v3, and YOLO v4.
+- Applied YOLO v3 to the DOTA dataset(a remote-sensing dataset) to detect objects in remote sensing images.
+- Learned and adapted simple CNN and LSTM on MNIST dataset with PyTorch, show and tell algorithm on UCM dataset with TensorFlow.
+\n
+
+== Institute of Computing Technology, Chinese Academy of Sciences
+- Advisor: [https://scholar.google.com/citations?user=sydMhy8AAAAJ&hl=en&oi=ao Yiqing Zhou].
+- Developed the low-latency I2S controller on FPGA.
+- Investigated video compression algorithms based on JPEG XS.
