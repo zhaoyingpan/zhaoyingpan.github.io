@@ -2,18 +2,38 @@
 == Research Experiences
 
 == University of Michigan
+- Jan. 2022 - Present. Advisor: [https://scholar.google.com/citations?user=9hX-JksAAAAJ&hl=en&oi=ao Andrew Owens].
 - Working on photoshopped image classification recently.
 \n
 
-== Aerospace Information Research Institute, Chinese Academy of Sciences
-- Advisor: [https://scholar.google.com/citations?user=xWKPHDYAAAAJ&hl=en&oi=ao Xian Sun] and Kun Fu.
-- Learned and adapted CycleGAN to remove fog in images.
-- Reviewed object detection algorithms, including Faster-RCNN, YOLO v3, and YOLO v4.
-- Applied YOLO v3 to the DOTA dataset(a remote-sensing dataset) to detect objects in remote sensing images.
-- Learned and adapted simple CNN and LSTM on MNIST dataset with PyTorch, show and tell algorithm on UCM dataset with TensorFlow.
+== Aerospace Information Research Institute, Chinese Academy of Sciences.
+- Mar. 2021 - Jun. 2021. Advisor: [https://scholar.google.com/citations?user=xWKPHDYAAAAJ&hl=en&oi=ao Xian Sun].
+- Adapted CycleGAN to remove fog in images.
+\n
+
+
+== Aerospace Information Research Institute, Chinese Academy of Sciences.
+- Nov. 2021 - Apr. 2021. Advisor: Kun Fu and [https://scholar.google.com/citations?user=xWKPHDYAAAAJ&hl=en&oi=ao Xian Sun].
+=== Bachelor's Thesis: Image Captioning of Remote Sensing Images
+- Reviewed image captioning algorithms, including *Show and Tell*, *Show, Attend and Tell*, Transformer, Attention on Attention (AoA)
+- Applied the above four algorithms to three remote-sensing image dataset(Sydney-Captions Dataset, UCM-Captions Dataset, RSICD Dataset)
+- Compared and analysed the results qualitatively and quantitatively.
 \n
 
 == Institute of Computing Technology, Chinese Academy of Sciences
-- Advisor: [https://scholar.google.com/citations?user=sydMhy8AAAAJ&hl=en&oi=ao Yiqing Zhou].
+- Jul. 2020 - Oct. 2020. Advisor: [https://scholar.google.com/citations?user=sydMhy8AAAAJ&hl=en&oi=ao Yiqing Zhou].
 - Developed the low-latency I2S controller on FPGA.
 - Investigated video compression algorithms based on JPEG XS.
+\n
+
+== Aerospace Information Research Institute, Chinese Academy of Sciences.
+- Aug. 2020 - Oct. 2020. Advisor: [https://scholar.google.com/citations?user=xWKPHDYAAAAJ&hl=en&oi=ao Xian Sun] and Kun Fu.
+- Reviewed object detection algorithms, including Faster-RCNN, YOLO v3, and YOLO v4.
+- Applied YOLO v3 to the DOTA dataset(a remote-sensing dataset) to detect objects in remote sensing images.
+\n
+
+== Aerospace Information Research Institute, Chinese Academy of Sciences.
+- Jul. 2019 - Aug. 2019. Advisor: [https://scholar.google.com/citations?user=xWKPHDYAAAAJ&hl=en&oi=ao Xian Sun] and Kun Fu.
+- Adapted simple CNN and LSTM on MNIST dataset with PyTorch, show and tell algorithm on UCM dataset with TensorFlow.
+\n
+

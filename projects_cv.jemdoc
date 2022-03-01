@@ -2,10 +2,15 @@
 == Projects -- Computer Vision
 
 === Facial Expression Editing
+- Adapted the first order motion model to edit facial expressions.
+- Designed and implemented a weighting mechanism to improve the performance.
 \n
+
 === DeepFake Images Detection
+- Designed and implemented a simple classifier and a Siamese network from scratch to detect DeepFake images.
+- Reimplemented a EfficientNet-based classifier with Siamese-style training strategy.
 \n
-=== Bachelor's Thesis: Image Caption Generating of High-Resolution Remote Sensing images
-\n
+
 === Location and segmentation of license plate’s characters
+- Designed and implemented image processing algorithms to locate the license plates and segment the characters in Matlab.
 \n
