@@ -14,10 +14,10 @@
 
 == Aerospace Information Research Institute, Chinese Academy of Sciences.
 - Nov. 2021 - Apr. 2021. Advisor: Kun Fu and [https://scholar.google.com/citations?user=xWKPHDYAAAAJ&hl=en&oi=ao Xian Sun].
-=== Bachelor's Thesis: Image Captioning of Remote Sensing Images
-- Reviewed image captioning algorithms, including *Show and Tell*, *Show, Attend and Tell*, Transformer, Attention on Attention (AoA)
-- Applied the above four algorithms to three remote-sensing image dataset(Sydney-Captions Dataset, UCM-Captions Dataset, RSICD Dataset)
-- Compared and analysed the results qualitatively and quantitatively.
+- Bachelor's Thesis: Image Captioning of Remote Sensing Images
+-- Reviewed image captioning algorithms, including Show and Tell, Show, Attend and Tell, Transformer, Attention on Attention (AoA)
+-- Applied the above four algorithms to three remote-sensing image dataset(Sydney-Captions Dataset, UCM-Captions Dataset, RSICD Dataset)
+-- Compared and analysed the results qualitatively and quantitatively.
 \n
 
 == Institute of Computing Technology, Chinese Academy of Sciences
