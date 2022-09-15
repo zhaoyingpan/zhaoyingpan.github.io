@@ -1,0 +1,61 @@
+# jemdoc: menu{MENU}{experiences.html}, nofooter
+== Research Experiences
+
+== Motion Magnification
+- May. 2022 - Present. Advisor: Andrew Owens
+- Demonstrated the effectiveness of using optical flow to guide the prediction of frames.
+- Currently developing an unsupervised method to predict the frames with magnified motion.
+\n
+
+
+== Artwork Space Exploration
+- Apr. 2022 - Present. Independent research with Jinge Ma and Yutong Xie
+- Applied auto-encoder, CLIP, and artCLIP to construct the artwork space.
+- Performed dimensionality-reduction methods including PCA and UMAP to visualize the distribution of the space.
+- Explore the attributes of the artwork space.
+\n
+
+
+== Face Animation with Multiple Source Images
+- Oct. 2021 – May. 2022. Independent research with Jinge Ma
+- Collected a set of high-quality representative videos to construct an evaluation set for face animation.
+- Proposed flexible animation methods with multiple source images to improve the animation performance of previous models,
+especially in scenarios with large changes in views.
+- Conducted experiments and user studies to compare our method with previous methods (Monkey-Net, FOMM, MRAA).
+\n
+
+
+== Super-resolution of Remote Sensing Images with Diffusion Model
+- Jan. 2022 – Jul. 2022. Advisor: Zhiqiang Yuan
+- Involved in implementing the diffusion model with detailed complementary mechanisms for super-resolution on remote
+sensing images.
+- Compared the proposed method with the previous methods.
+\n
+
+
+== Evaluation Protocol of Multi-modal Semantic Localization
+- Apr. 2021 – May. 2022. Advisor: Zhiqiang Yuan and Xian Sun
+- Involved in collecting the Semantic Localization (SeLo) Testset.
+- Participated in comparison of SeLo Performance on different trainsets and retrieval models
+\n
+
+
+== Image Caption Generating of High-Resolution Remote Sensing Images (bachelor's Thesis)
+- Nov. 2020 – Apr. 2021. Advisor: Kun Fu and Xian Sun
+- Reviewed image captioning algorithms, including Show and Tell, Show, Attend and Tell, Transformer, Attention on Attention
+(AoA).
+- Implemented the above four algorithms to three remote-sensing image datasets, Sydney-Captions Dataset, UCM-Captions
+Dataset, and RSICD Dataset.
+- Compared and analyzed the models qualitatively and quantitatively to obtain a model for practical applications.
+\n
+
+== Object Detection Implementation
+- Aug. 2020 – Oct. 2020. Advisor: Kun Fu and Xian Sun
+- Reviewed object detection algorithms, including Faster-RCNN, YOLO v3, and YOLO v4.
+- Implemented YOLO v3 on the DOTA dataset to detect objects in remote sensing images.
+\n
+
+== Image Captioning Implementation 
+- Jul. 2019 – Aug. 2019. Advisor: Xian Sun, Kun Fu
+- Implemented simple CNN and LSTM on MNIST dataset with PyTorch.
+- Implemented show and tell algorithm on UCM dataset with TensorFlow.
