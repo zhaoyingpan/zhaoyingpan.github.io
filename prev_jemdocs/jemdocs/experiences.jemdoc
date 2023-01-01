@@ -1,0 +1,57 @@
+# jemdoc: menu{MENU}{experiences.html}, nofooter
+== Research Experiences
+
+== Motion Magnification
+- May. 2022 - Present. Advisor: Prof. Andrew Owens
+- Implemented an unsupervised approach for motion magnification with a sinusoidal representation network using a single example as a toy example.
+- Demonstrated the effectiveness of using optical flow to guide the generation of magnified frames.
+- Currently implementing and training the unsupervised approach with models and datasets to predict the magnified frames with large magnification factors.
+\n
+
+
+== Artwork Space Exploration
+- Apr. 2022 - Present. Independent research with Jinge Ma and Yutong Xie
+- Applied auto-encoder, CLIP, and artCLIP to construct the artwork space and mined the space with dimensionality-reduction methods including PCA and UMAP.
+- Created visualization of artwork embeddings with style labels. Examined and understood the relationship between different clusters of artwork.
+- Currently studying the artwork space with the text space of the text-to-image models, including DALL·E 2 and Stable Diffusion.
+\n
+
+
+== Face Animation with Multiple Source Images
+- Oct. 2021 – May. 2022. Independent research with Jinge Ma
+- Collected high-quality representative videos to construct an evaluation set for face animation.
+- Proposed a flexible animation method enabling inputs of multiple source images to improve the animation performance of previous models.
+- Conducted experiments and user studies to illustrate the superiority of our method over previous methods (Monkey-Net, FOMM, MRAA).
+\n
+
+
+== Super-resolution of Remote Sensing Images with Diffusion Model
+- Jan. 2022 – Apr. 2022. Advisor: Zhiqiang Yuan
+- Participated in the implementation of the diffusion model with detailed complementary mechanisms for super-resolution on remote sensing images.
+- Compared the proposed method DMDC with the previous methods (MSRN and DDBPN).
+\n
+
+
+== Evaluation Protocol of Multi-modal Semantic Localization
+- Apr. 2021 – Sept. 2021. Advisor: Zhiqiang Yuan and Prof. Xian Sun
+- Involved in collecting the Semantic Localization (SeLo) Testset.
+- Participated in comparison of SeLo Performance on different trainsets (Sydney, UCM, and RSICD) and retrieval models (VSE++, LW-MCR).
+\n
+
+
+== Image Caption Generating of High-Resolution Remote Sensing Images (bachelor's Thesis)
+- Nov. 2020 – Apr. 2021. Advisor: Prof. Kun Fu and Prof. Xian Sun
+- Implemented image captioning algorithms, including Show and Tell, Show, Attend and Tell, Transformer, Attention on Attention (AoA), on three remote-sensing image datasets, Sydney-Captions Dataset, UCM-Captions Dataset, and RSICD Dataset.
+- Compared and analyzed the trained models qualitatively and quantitatively to determine the best model for practical application.
+\n
+
+== Object Detection Implementation
+- Aug. 2020 – Oct. 2020. Advisor: Prof. Kun Fu and Prof. Xian Sun
+- Reviewed object detection algorithms, including Faster-RCNN, YOLO v3, and YOLO v4.
+- Implemented YOLO v3 on the DOTA dataset to detect objects in remote sensing images.
+\n
+
+== Image Captioning Implementation 
+- Jul. 2019 – Aug. 2019. Advisor: Xian Sun, Kun Fu
+- Implemented simple CNN and LSTM with PyTorch and TensorFlow.
+- Implemented show and tell algorithm on UCM dataset with TensorFlow.
