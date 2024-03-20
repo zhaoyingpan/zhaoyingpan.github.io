@@ -18,11 +18,9 @@
         function showSecondImage() {
             var button = document.getElementById('button');
             var profileImage = document.getElementById('profile');
-            var caption = document.getElementById('caption');
     
             button.style.display = 'none';
             profileImage.src = 'assets/img/profile.jpg';
-            caption.style.display = 'block';
         }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -59,7 +57,6 @@
                     Email: zhaoyingpan AT purdue DOT edu
                 </p>
                 <p>
-                    <a href="mailto:zhaoyingpan@purdue.edu" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Email</a>
                     <a href="https://scholar.google.com/citations?user=HmQECwsAAAAJ&hl=en&oi=ao" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Google Scholar</a>
                     <a href="https://www.linkedin.com/in/zhaoying-pan-296942153/" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
                     <a href="https://twitter.com/ZhaoyingPan" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
@@ -68,7 +65,6 @@
             </div>
             <div class="col-md-4" style="">
                 <img id="profile" src="assets/img/goose.jpg" class="img-thumbnail" width="280px" alt="Profile picture" />
-                <p id="caption" style="display: none;">From 2021, pre-weight gain—outdated but my all-time favorite!</p>
                 <button id="button" onclick="showSecondImage();" style="border: none; margin-top: 5px;">Show My Photo!</button>
             </div>
         </div>
@@ -88,14 +84,12 @@
                     <b>University of Michigan</b><span style="float: right;">2021-2023</span>
                     <br><span style="font-style: italic;">Master of Science</span> in Electrical and Computer Engineering
                     <br>Specialization: Computer Vision
-                    <br>GPA: 4.0/4.0
                     <br>Advisor: <a href="https://andrewowens.com/" target="_blank">Prof. Andrew Owens </a>
                 </div> </div> </div>
                 
                 <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-2"><img src="assets/img/ucas.jpg" alt="UCAS" width="120" height="120"></div><div class="col-sm-10">
                     <b>University of Chinese Academy of Sciences</b> <span style="float: right;">2017-2021</span>
                     <br><span style="font-style: italic;">Bachelor of Engineering</span> in Electronic and Information Engineering
-                    <br>GPA: 3.59/4.0
                     <br>Thesis: <span style="font-style: italic;">Image Caption Generating of High-Resolution Remote Sensing Images.</span> (Bachelor’s Thesis with Honors)
                     <br>Advisor: <a href="https://people.ucas.ac.cn/~fukun" target="_blank">Prof. Kun Fu</a> and <a href="https://people.ucas.ac.cn/~sunxian" target="_blank">Prof. Xian Sun</a> 
                 </div> </div> </div>
@@ -109,24 +103,24 @@
 
 
     <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="assets/img/publications/twocats.gif" class="img-fluid img-thumbnail" alt="Project image"></div>
-        <div class="col-sm-9"><a href="">Self-Supervised Motion Magnification by Backpropagating Through Optical Flow</a>
+        <div class="col-sm-9"><a style="font-weight: bold";>Self-Supervised Motion Magnification by Backpropagating Through Optical Flow</a>
         <br><span style="font-weight: bold";>Zhaoying Pan</span>*, Daniel Geng*, Andrew Owens. (equal contribution)
         <br><span style="font-style: italic;">The Conference on Neural Information Processing Systems (NeurIPS)</span>, 2023
-        <br><a href="https://openreview.net/pdf?id=hLPJ7xLbNF" target="_blank">Paper</a> / <a href="https://github.com/dangeng/flowmag" target="_blank">Code</a> / <a href="https://dangeng.github.io/flowmag/" target="_blank">Website</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsepan2023selfsupervised" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapsepan2023selfsupervised"><div class="card card-body"><pre><code>@inproceedings{pan2023selfsupervised,
+        <br><a href="https://arxiv.org/abs/2311.17056" target="_blank">Paper</a> / <a href="https://github.com/dangeng/flowmag" target="_blank">Code</a> / <a href="https://dangeng.github.io/flowmag/" target="_blank">Website</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsepan2023selfsupervised" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapsepan2023selfsupervised"><div class="card card-body"><pre><code>@inproceedings{pan2023selfsupervised,
         title={Self-Supervised Motion Magnification by Backpropagating Through Optical Flow},
         author={Zhaoying Pan and Daniel Geng and Andrew Owens},
         booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
         year={2023},
-        url={https://openreview.net/forum?id=hLPJ7xLbNF}
+        url={https://arxiv.org/abs/2311.17056}
 }</pre></code></div></div>
         <br> We present a method to magnify subtle motion that can be trained without groundtruth magnified videos. Furthermore, our method is flexible to allow users only magnify specific area, or overfit on a single video for better performance.
 </div> </div> </div>
 
     <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="assets/img/publications/promptlog.jpg" class="img-fluid img-thumbnail" alt="Project image"></div>
-        <div class="col-sm-9"><a href="https://arxiv.org/pdf/2303.04587.pdf">A Prompt Log Analysis of Text-to-Image Generation Systems</a>
+        <div class="col-sm-9"><a style="font-weight: bold";>A Prompt Log Analysis of Text-to-Image Generation Systems</a>
         <br>Yutong Xie*, <span style="font-weight: bold";>Zhaoying Pan</span>*, Jinge Ma*, Luo Jie, Qiaozhu Mei. (equal contribution)
         <br><span style="font-style: italic;">The ACM Web Conference (WWW), The Creative Web Track</span>, 2023
-        <br><a href="assets/pdf/www23-401.pdf" target="_blank">Paper</a> / <a href="https://github.com/zhaoyingpan/prompt_log_analysis" target="_blank">Code</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsexie2023prompt" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapsexie2023prompt"><div class="card card-body"><pre><code>@article{xie2023prompt,
+        <br><a href="https://arxiv.org/abs/2303.04587" target="_blank">Paper</a> / <a href="https://github.com/zhaoyingpan/prompt_log_analysis" target="_blank">Code</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsexie2023prompt" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapsexie2023prompt"><div class="card card-body"><pre><code>@article{xie2023prompt,
         title={A Prompt Log Analysis of Text-to-Image Generation Systems},
         author={Xie, Yutong and Pan, Zhaoying and Ma, Jinge and Luo, Jie and Mei, Qiaozhu},
         journal={arXiv preprint arXiv:2303.04587},
@@ -137,10 +131,10 @@
 
 
     <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="assets/img/publications/selo.png" class="img-fluid img-thumbnail" alt="Project image"></div>
-        <div class="col-sm-9"><a href="https://arxiv.org/abs/2209.06515">Learning to Evaluate Performance of Multi-modal Semantic Localization.</a>
+        <div class="col-sm-9"><a style="font-weight: bold";>Learning to Evaluate Performance of Multi-modal Semantic Localization</a>
         <br>Zhiqiang Yuan, Wenkai Zhang, Chongyang Li, <span style="font-weight: bold";>Zhaoying Pan</span>, Jialiang Chen, Yongqiang Mao, Shuoke Li, Hongqi Li, Xian Sun.
         <br><span style="font-style: italic;">IEEE Transactions on Geoscience and Remote Sensing</span>, 2022
-        <br><a href="assets/pdf/2209.06515.pdf" target="_blank">Paper</a> / <a href="https://github.com/xiaoyuan1996/SemanticLocalizationMetrics" target="_blank">Code</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseyuan2022learning" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapseyuan2022learning"><div class="card card-body"><pre><code>@article{yuan2022learning,
+        <br><a href="https://arxiv.org/abs/2209.06515" target="_blank">Paper</a> / <a href="https://github.com/xiaoyuan1996/SemanticLocalizationMetrics" target="_blank">Code</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseyuan2022learning" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapseyuan2022learning"><div class="card card-body"><pre><code>@article{yuan2022learning,
         title={Learning to Evaluate Performance of Multi-modal Semantic Localization},
         author={Yuan, Zhiqiang and Zhang, Wenkai and Li, Chongyang and Pan, Zhaoying and Mao, Yongqiang and Chen, Jialiang and Li, Shouke and Wang, Hongqi and Sun, Xian},
         journal={arXiv preprint arXiv:2209.06515},
@@ -150,10 +144,10 @@
 </div> </div> </div>
 
 <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3"><img src="assets/img/publications/sr.png" class="img-fluid img-thumbnail" alt="Project image"></div>
-    <div class="col-sm-9"><a href="https://www.mdpi.com/2072-4292/14/19/4834">Diffusion Model with Detail Complement for Super-resolution of Remote Sensing.</a>
+    <div class="col-sm-9"><a style="font-weight: bold";>Diffusion Model with Detail Complement for Super-resolution of Remote Sensing</a>
     <br>Jinzhe Liu, Zhiqiang Yuan, <span style="font-weight: bold";>Zhaoying Pan</span>, Yiqun Fu, Li Liu, Bin Lu.
     <br><span style="font-style: italic;">Remote Sensing</span>, 2022
-    <br><a href="assets/pdf/remotesensing-14-04834.pdf" target="_blank">Paper</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseliu2022diffusion" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapseliu2022diffusion"><div class="card card-body"><pre><code>@article{liu2022diffusion,
+    <br><a href="https://www.mdpi.com/2072-4292/14/19/4834" target="_blank">Paper</a> /<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseliu2022diffusion" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapseliu2022diffusion"><div class="card card-body"><pre><code>@article{liu2022diffusion,
     title={Diffusion Model with Detail Complement for Super-Resolution of Remote Sensing},
     author={Liu, Jinzhe and Yuan, Zhiqiang and Pan, Zhaoying and Fu, Yiqun and Liu, Li and Lu, Bin},
     journal={Remote Sensing},
@@ -184,6 +178,7 @@
                 <h4>Teaching Experience</h4>
                 <ul>
                     <li><b>23 Fall: ECE 264 Advanced C Programming</b>, <span style="font-style: italic;">Graduate Teaching Assistant</span> <span style="float: right;">Purdue University</span></li>
+                    <li><b>24 Spring: ECE 264 Advanced C Programming</b>, <span style="font-style: italic;">Graduate Teaching Assistant</span> <span style="float: right;">Purdue University</span></li>
                 </ul>
             </div>
         </div>
@@ -202,7 +197,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"></script>
     <footer style="padding-left: 220px;">
-        <p>Visitor Count since 01/10/2024. Thanks for the website template from <a href="https://m-niemeyer.github.io/" target="_blank">Michael Niemeyer</a>. Last updated on 1/10/2024<br>
+        <p>Visitor Count since 01/10/2024. Thanks for the website template from <a href="https://m-niemeyer.github.io/" target="_blank">Michael Niemeyer</a>. Last updated on 03/19/2024<br>
         </p>
     </footer>
 </body>
