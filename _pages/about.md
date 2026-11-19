@@ -13,7 +13,7 @@ Prior to Purdue, I worked with [Prof. Andrew Owens](https://andrewowens.com/) an
 
 My research focuses on understanding and improving the reliability of machine learning models, particularly their ability to learn from and reason under conflicting or misleading evidence. I develop theoretical foundations and practical methods for building reliable multimodal foundation models. More recently, my work has expanded to address the reliability of large language models (LLMs) and the safety of autonomous AI agents. I am open to new research areas and potential collaborations.
 
-<span style="color: red;">I'm actively looking for internship opportunities in 2027 Summer!</span>
+<span style="color: red;">I'm actively looking for internship opportunities for 2027 Summer!</span>
 
 Education
 =========
