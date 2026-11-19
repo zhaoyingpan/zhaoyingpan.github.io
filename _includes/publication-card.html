@@ -1,0 +1,35 @@
+<div class="publication-list-item">
+  <article class="publication-card" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    {% if include.post.image %}
+      <div class="publication-card__figure">
+        <img src="{{ include.post.image | relative_url }}" alt="Figure for {{ include.title }}" loading="lazy">
+      </div>
+    {% endif %}
+
+    <div class="publication-card__content">
+      <h2 class="archive__item-title publication-card__title" itemprop="headline">
+        {{ include.title }}
+      </h2>
+
+      {% if include.post.authors %}
+        <div class="publication-card__authors" itemprop="author">{{ include.post.authors }}</div>
+      {% endif %}
+
+      <div class="publication-card__venue">
+        <i>{{ include.post.venue }}</i>, {{ include.post.date | date: "%Y" }}
+      </div>
+
+      <div class="publication-card__links">
+        {% if include.post.paperurl %}<a href="{{ include.post.paperurl }}">Paper</a>{% endif %}
+        {% if include.post.codeurl %}<span aria-hidden="true"> / </span><a href="{{ include.post.codeurl }}">Code</a>{% endif %}
+        {% if include.post.websiteurl %}<span aria-hidden="true"> / </span><a href="{{ include.post.websiteurl }}">Website</a>{% endif %}
+      </div>
+
+      {% if include.post.excerpt %}
+        <div class="archive__item-excerpt publication-card__summary" itemprop="description">
+          {{ include.post.excerpt | markdownify }}
+        </div>
+      {% endif %}
+    </div>
+  </article>
+</div>

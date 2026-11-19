@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign teaching_by_date = site.teaching | sort: "date" | reverse %}
+{% for post in teaching_by_date %}
+  {% include archive-single.html %}
+{% endfor %}
