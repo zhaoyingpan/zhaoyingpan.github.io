@@ -3,4 +3,20 @@
 <!-- Support for MathJax -->
 {% if page.mathjax %}<script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>{% endif %}
 
+{% if page.url == '/' %}
+<script>
+  (function () {
+    var sectionLinks = document.querySelectorAll('#site-nav a[data-section]');
+    function markCurrentSection() {
+      var currentSection = window.location.hash.slice(1) || 'about';
+      sectionLinks.forEach(function (link) {
+        link.parentElement.classList.toggle('selected', link.dataset.section === currentSection);
+      });
+    }
+    window.addEventListener('hashchange', markCurrentSection);
+    markCurrentSection();
+  }());
+</script>
+{% endif %}
+
 <!-- end custom footer snippets -->

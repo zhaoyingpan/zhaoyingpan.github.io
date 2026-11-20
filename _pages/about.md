@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD candidate in Electrical and Computer Engineering at Purdue University, advised by [Prof. Xiaoqian Wang](https://engineering.purdue.edu/~joywang/).
 
-Prior to Purdue, I worked with [Prof. Andrew Owens](https://andrewowens.com/) and [Daniel Geng](https://dangeng.github.io/) during my master's program. Earlier, I collaborated with [Jinge Ma](https://jingema99.github.io/jingema.github.io/) and [Yutong Xie](https://yutxie.com/), advised by [Prof. Qiaozhu Mei](http://www-personal.umich.edu/~qmei/). I also worked with [Ying Yang](https://yingyangum.github.io/) and [Prof. Daniel Klionsky](https://www.lsi.umich.edu/science/our-labs/klionsky-lab/daniel-klionsky-phd). During my bachelor's studies, I worked with [Zhiqiang Yuan](https://github.com/xiaoyuan1996) under the supervision of [Prof. Kun Fu](https://scholar.google.com/citations?hl=en&user=9ROSSEMAAAAJ) and [Prof. Xian Sun](https://scholar.google.com/citations?hl=en&user=xWKPHDYAAAAJ).
+Prior to Purdue, I worked with [Prof. Andrew Owens](https://andrewowens.com/) and [Daniel Geng](https://dangeng.github.io/) during my master's studies. Earlier, I collaborated with [Jinge Ma](https://jingema99.github.io/jingema.github.io/) and [Yutong Xie](https://yutxie.com/) under the guidance of [Prof. Qiaozhu Mei](http://www-personal.umich.edu/~qmei/). I also worked with [Ying Yang](https://yingyangum.github.io/) and [Prof. Daniel Klionsky](https://www.lsi.umich.edu/science/our-labs/klionsky-lab/daniel-klionsky-phd). During my undergraduate studies, I collaborated with [Zhiqiang Yuan](https://github.com/xiaoyuan1996) under the supervision of [Prof. Kun Fu](https://scholar.google.com/citations?hl=en&user=9ROSSEMAAAAJ) and [Prof. Xian Sun](https://scholar.google.com/citations?hl=en&user=xWKPHDYAAAAJ).
 
 My research focuses on understanding and improving the reliability of machine learning models, particularly their ability to learn from and reason under conflicting or misleading evidence. I develop theoretical foundations and practical methods for building reliable multimodal foundation models. More recently, my work has expanded to address the reliability of large language models (LLMs) and the safety of autonomous AI agents. I am open to new research areas and potential collaborations.
 
@@ -31,19 +31,30 @@ BE in Electronic and Information Engineering
 Bachelor's thesis with honors: *Image Caption Generating of High-Resolution Remote Sensing Images*  
 Advisors: [Prof. Kun Fu](https://scholar.google.com/citations?hl=en&user=9ROSSEMAAAAJ) and [Prof. Xian Sun](https://scholar.google.com/citations?hl=en&user=xWKPHDYAAAAJ)
 
-Research
-========
+Publications
+============
 
-<!-- Selected Publications
----------------------
-- Zhaoying Pan, Shenyu Lu, Joshua Wong, Junyi Chai, Xiaoqian Wang. [Beyond Modality Preference: Controlling Multimodal Arbitration under Modality Conflict in MLLMs.](https://arxiv.org/pdf/2611.12883) WACV, 2027.
-- Zhaoying Pan, Yipei Wang, Shenyu Lu, Xiaoqian Wang. [Guiding Data Allocation for Robust Subpopulation Generalization.](https://arxiv.org/pdf/2611.12884) NeurIPS, 2026.
-- Zhaoying Pan\*, Daniel Geng\*, Andrew Owens. [Self-Supervised Motion Magnification by Backpropagating Through Optical Flow.](https://proceedings.neurips.cc/paper_files/paper/2023/file/00ed9ab006311be67879ecef8f80d7c5-Paper-Conference.pdf) (\* Equal Contribution) NeurIPS, 2023. -->
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
-See my [publications](/publications/) for a complete list.
 
 
 Projects
 ========
 
 - **The Evolution of AI and Data Mining.** We analyzed computer science papers spanning half a century and studied how the distribution of research domains changed over time. [Watch the video](https://www.youtube.com/watch?v=J0nB0uRRCo4).
+
+Teaching
+========
+
+{% assign teaching_by_date = site.teaching | sort: "date" | reverse %}
+{% for post in teaching_by_date %}
+  {% include archive-single.html %}
+{% endfor %}
+
+Service
+=======
+
+{% assign service_page = site.pages | where: "url", "/service/" | first %}
+{{ service_page.content | markdownify }}

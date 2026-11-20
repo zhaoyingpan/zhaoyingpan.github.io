@@ -9,16 +9,20 @@
 
 main:
   - title: "About"
-    url: /
+    url: /#about
+    section: about
 
   - title: "Publications"
-    url: /publications/
+    url: /#publications
+    section: publications
 
   - title: "Teaching"
-    url: /teaching/
+    url: /#teaching
+    section: teaching
 
   - title: "Service"
-    url: /service/
+    url: /#service
+    section: service
 
   - title: "CV"
     url: "https://drive.google.com/file/d/1xo2wpjEIxHk0lxRH7qcLPQacnnxpnYff/view?usp=sharing"
