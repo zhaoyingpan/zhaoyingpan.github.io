@@ -2,7 +2,7 @@
 title: "On the Effects of Adversarial Perturbations on Distribution Robustness."
 collection: publications
 category: conferences
-excerpt: ""
+excerpt: "An analysis on how adversarial perturbations affect robustness under distribution shifts, showing that their impact depends on spurious correlations and feature separability and can sometimes improve distribution robustness."
 image: "/images/publications/effects.png"
 authors: 'Yipei Wang*, <strong>Zhaoying Pan</strong>*, Xiaoqian Wang'
 date: 2026-01-01

@@ -2,7 +2,7 @@
 title: "Think Twice: Test-Time Reasoning for Robust CLIP Zero-Shot Classification."
 collection: publications
 category: conferences
-excerpt: ""
+excerpt: "A inference-time method that uses CLIP's own semantic cues to localize objects at test time and classify the localized region, reducing reliance on spurious backgrounds without requiring spurious-attribute annotations."
 image: "/images/publications/think.png"
 authors: 'Shenyu Lu, <strong>Zhaoying Pan</strong>, Xiaoqian Wang'
 date: 2025-09-01
