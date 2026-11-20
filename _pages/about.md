@@ -49,12 +49,16 @@ Teaching
 ========
 
 {% assign teaching_by_date = site.teaching | sort: "date" | reverse %}
+<div class="home-teaching-list">
 {% for post in teaching_by_date %}
   {% include archive-single.html %}
 {% endfor %}
+</div>
 
 Service
 =======
 
 {% assign service_page = site.pages | where: "url", "/service/" | first %}
+<div class="home-service">
 {{ service_page.content | markdownify }}
+</div>
