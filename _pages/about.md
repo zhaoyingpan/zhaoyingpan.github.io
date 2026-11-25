@@ -9,11 +9,14 @@ redirect_from:
 
 I am a PhD candidate in Electrical and Computer Engineering at Purdue University, advised by [Prof. Xiaoqian Wang](https://engineering.purdue.edu/~joywang/).
 
-Prior to Purdue, I worked with [Prof. Andrew Owens](https://andrewowens.com/) and [Daniel Geng](https://dangeng.github.io/) during my master's studies. Earlier, I collaborated with [Jinge Ma](https://jingema99.github.io/jingema.github.io/) and [Yutong Xie](https://yutxie.com/) under the guidance of [Prof. Qiaozhu Mei](http://www-personal.umich.edu/~qmei/). I also worked with [Ying Yang](https://yingyangum.github.io/) and [Prof. Daniel Klionsky](https://www.lsi.umich.edu/science/our-labs/klionsky-lab/daniel-klionsky-phd). During my undergraduate studies, I collaborated with [Zhiqiang Yuan](https://github.com/xiaoyuan1996) under the supervision of [Prof. Kun Fu](https://scholar.google.com/citations?hl=en&user=9ROSSEMAAAAJ) and [Prof. Xian Sun](https://scholar.google.com/citations?hl=en&user=xWKPHDYAAAAJ).
+Prior to Purdue, I worked with [Prof. Andrew Owens](https://andrewowens.com/) and [Prof. Qiaozhu Mei](http://www-personal.umich.edu/~qmei/) during my master's studies. I also conducted research with [Yutong Xie](https://yutxie.com/). During my undergraduate studies, I was advised by [Prof. Kun Fu](https://scholar.google.com/citations?hl=en&user=9ROSSEMAAAAJ) and [Prof. Xian Sun](https://scholar.google.com/citations?hl=en&user=xWKPHDYAAAAJ).
+<!-- Throughout my research journey, I have been fortunate to learn from and work with wonderful mentors and collaborators, including [Ying Yang](https://yingyangum.github.io/), [Yutong Xie](https://yutxie.com/), [Jinge Ma](https://jingema99.github.io/jingema.github.io/), [Daniel Geng](https://dangeng.github.io/), and [Zhiqiang Yuan](https://github.com/xiaoyuan1996). -->
 
 My research focuses on understanding and improving the reliability of machine learning models, particularly their ability to learn from and reason under conflicting or misleading evidence. I develop theoretical foundations and practical methods for building reliable multimodal foundation models. More recently, my work has expanded to address the reliability of large language models (LLMs) and the safety of autonomous AI agents. I am open to new research areas and potential collaborations.
 
-<span style="color: red;">I'm actively looking for internship opportunities for 2027 Summer!</span>
+I am always open to research collaborations and new opportunities. Feel free to reach out if you are interested in working together!
+
+<span style="color: red;">I am actively seeking internship opportunities for Spring/Summer 2027!</span>
 
 Education
 =========
